@@ -11,7 +11,6 @@ nmap <C-n> :NERDTreeToggle<CR>
 " Cerrar Neovim automaticamente si el unico Buffer que queda es el de NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
-
 " Si eliminamos un archivo que tiene un buffer abierto, tambien cerrará y eliminará dicho buffer
 let NERDTreeAutoDeleteBuffer = 1
 

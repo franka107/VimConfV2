@@ -25,3 +25,11 @@ set nowritebackup " COnfiguracion recomendada para el plugin coc
 set updatetime=300 " Faster completion
 set clipboard=unnamedplus " Permite que el clipboard de vim interactue con todas las aplicaciones
 set relativenumber " indica los numeros de linea hacia arriba y abajo desde la linea en la que nos ubicamos actualmente
+set nocompatible
+
+" set cursorline
+hi cursorline cterm=none term=none
+autocmd WinEnter * setlocal cursorline
+autocmd WinLeave * setlocal nocursorline
+highlight CursorLine guibg=#303000 ctermbg=234
+
