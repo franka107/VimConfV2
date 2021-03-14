@@ -3,7 +3,7 @@ let g:mapleader = "\<Space>"
 
 syntax enable " Habilita el resaltado de la sintaxis
 set hidden " Habilita la opcion de abrir nuevos buffers sin necesidad de guarda los cambios del actual
-set nowrap " Muestra largas lineas de texto en una sola linea
+" set nowrap " Muestra largas lineas de texto en una sola linea
 set encoding=UTF-8 " El tipo de encoding que mostrará
 set fileencoding=UTF-8 " Encoding para los archivos
 set pumheight=10 " Hace el menu mucho mas pequeño
@@ -12,7 +12,7 @@ set cmdheight=2 " Espacio entre los mensajes mostrados
 set mouse=a " Habilita el uso del mouse dentro del editor
 set splitbelow " Las particiones de pantalla horizontales se ubicaran en la parte inferior
 set splitright " Las particiones de pantalla verticales se ubicacran al lado derecho
-set tabstop=2 " Numero de tabulaciones
+" set tabstop=2 " Numero de tabulaciones
 set smarttab " Hace que las tabulaciones sean inteligentes y noten cuando hay 2 o 4 tabulaciones
 set expandtab " Hace que las tabulaciones sean espacios
 set smartindent " Hace que la idententacion sea inteligente
