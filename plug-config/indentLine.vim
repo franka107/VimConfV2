@@ -1,7 +1,11 @@
 " GVim
 let g:indentLine_color_gui = '#4e586d'
-let g:indentLine_char_list = ['|', '¦', '┆', '┊']
+" let g:indentLine_char_list = ['|', '¦', '┆', '┊']
+let g:indentLine_char_list = ['·']
 
+
+let g:indentLine_leadingSpaceEnabled = 1
+let g:indentLine_leadingSpaceChar = '·'
 
 " none X terminal
 " let g:indentLine_color_tty_light = 7 " (default: 4)

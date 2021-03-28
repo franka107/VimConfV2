@@ -12,7 +12,9 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'ryanoasis/vim-devicons'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'airblade/vim-gitgutter'
-Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+Plug 'luochen1990/rainbow'
+Plug 'mattn/emmet-vim'
+" Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 " Plug 'w0rp/ale'
 
 
@@ -27,7 +29,6 @@ Plug 'sheerun/vim-polyglot'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
-" Plug 'mattn/emmet-vim'
 " Plug 'posva/vim-vue'
 Plug 'Yggdroot/indentLine'
 
@@ -42,7 +43,13 @@ Plug 'mhinz/vim-startify'
 " Plug 'arcticicestudio/nord-vim'
 " Plug 'joshdick/onedark.vim'
 " Plug 'mhartington/oceanic-next'
-Plug 'dracula/vim', { 'as': 'dracula' }
+" Plug 'dracula/vim', { 'as': 'dracula' }
 " Plug 'kaicataldo/material.vim', { 'branch': 'main' }
+" Plug 'drewtempelmeyer/palenight.vim'
+Plug 'ayu-theme/ayu-vim' " or other package manager
+" Plug 'whatyouhide/vim-gotham'
+
+
+
 call plug#end()
 

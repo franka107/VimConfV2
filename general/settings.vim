@@ -3,7 +3,7 @@ let g:mapleader = "\<Space>"
 
 syntax enable " Habilita el resaltado de la sintaxis
 set hidden " Habilita la opcion de abrir nuevos buffers sin necesidad de guarda los cambios del actual
-" set nowrap " Muestra largas lineas de texto en una sola linea
+set nowrap " Muestra largas lineas de texto en una sola linea
 set encoding=UTF-8 " El tipo de encoding que mostrará
 set fileencoding=UTF-8 " Encoding para los archivos
 set pumheight=10 " Hace el menu mucho mas pequeño
@@ -28,8 +28,12 @@ set relativenumber " indica los numeros de linea hacia arriba y abajo desde la l
 set nocompatible
 
 " set cursorline
-hi cursorline cterm=none term=none
+
+" hi cursorline guibg=#303000 ctermbg=BlueLight
 autocmd WinEnter * setlocal cursorline
 autocmd WinLeave * setlocal nocursorline
-highlight CursorLine guibg=#303000 ctermbg=234
+
+" highlight CursorLine guibg=#303000 ctermbg=234
+" highlight CursorLine ctermbg=Light
+
 
